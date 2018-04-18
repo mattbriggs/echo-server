@@ -28,7 +28,7 @@ def server(log_buffer=sys.stderr):
         # the outer loop controls the creation of new connection sockets. The
         # server will handle each incoming connection one at a time.
         while True:
-            print('waiting for a connection', file=log_buffer)
+            print('Waiting for a connection.', file=log_buffer)
 
             # TODO: make a new socket when a client connects, call it 'conn',
             #       at the same time you should be able to get the address of
